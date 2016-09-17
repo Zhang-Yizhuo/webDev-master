@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+<title>Mid-Autumn Festival Trivia</title>
+<script src="https://code.jquery.com/jquery-3.1.0.min.js"   integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s="   crossorigin="anonymous"></script>
+<script src="./index.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div id="Jokebox">
+  <div class="box">
+    <div id="setup">Setup!</div>
+    <a id="clicktoShow" href="#"><p class="spanSub">Click to hide answer!</p></a>
+    <div id="reveal" class="skeleton off on">
+    <div id="punchline">Punchline!</div>
+    </div>
+    <table>
+      <tr>
+        <td>
+          <a href="#"><div class="spanSub green Btn">:)</div></a><a href="#"><div class="spanSub red Btn">:(</div></a>
+        </td>
+        <td>
+          <div><a href="#" class="spanSub blue Btn">More!</a></div>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <div class="spanSub">
+            <span id="Votes"></span> people like this.
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+
+
+</div>
+</body>
+
+</html>
